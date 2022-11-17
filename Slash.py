@@ -16,7 +16,7 @@ class aclient(discord.Client):
 
         if not self.synced: #check if slash commands have been synced 
 
-            await tree.sync(guild = discord.Object(id=guild_id)) #guild specific: leave blank if global (global registration can take 1-24 hours)
+            await tree.sync(guild = discord.Object(id=896655023600185344)) #guild specific: leave blank if global (global registration can take 1-24 hours)
 
             self.synced = True
 
